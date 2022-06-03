@@ -1,0 +1,21 @@
+[package]
+name = "rust_client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = "~1.9.13"
+anchor-lang = "0.24.2"
+#solana-sdk = "1.10.0"
+#solana-client = "1.10.0"
+#solana-program = "1.7.14"
+shellexpand = "2.1.0"
+rand = "0.7.3"
+mySolanaProgram = { path = "lliibb", features = ["no-entrypoint"] }
+spl-associated-token-account = "1.0.3"
+anchor-spl = {version = "0.24.2"}
+anchor-client = "0.24.2"
+spl-token = {version = "3.1.1", features = ["no-entrypoint"]}
+
