@@ -61,11 +61,12 @@ fn main() {
     //basic_又contract端进行mint到给定(&client, Pubkey::from_str("2kx16UybH5HZkX1AimamBqqJ6mYstTgqR2jmVinV3GJS").unwrap());
    //basic_又contract端进行mint到给定_使用钱包公钥(&client, Pubkey::from_str("2kx16UybH5HZkX1AimamBqqJ6mYstTgqR2jmVinV3GJS").unwrap());
 
-    basic_又contract端进行mint到给定_使用钱包公钥_mint固定起来(&client, Pubkey::from_str("2kx16UybH5HZkX1AimamBqqJ6mYstTgqR2jmVinV3GJS").unwrap());
+   // basic_又contract端进行mint到给定_使用钱包公钥_mint固定起来(&client, Pubkey::from_str("2kx16UybH5HZkX1AimamBqqJ6mYstTgqR2jmVinV3GJS").unwrap());
+    mint_nft_开始mint(&client, Pubkey::from_str("2kx16UybH5HZkX1AimamBqqJ6mYstTgqR2jmVinV3GJS").unwrap());
 
 
-  /*  basic_4(&client, opts.basic_4_pid)?;
-    events(&client, opts.events_pid)?;*/
+    /*  basic_4(&client, opts.basic_4_pid)?;
+      events(&client, opts.events_pid)?;*/
 
     // Success.
 
